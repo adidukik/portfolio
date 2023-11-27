@@ -11,7 +11,7 @@ const Page = () => {
                     <Heading as="h2" variant="page-title">
                         Damir Zhumatayev
                     </Heading>
-                    <p>Korea Advanced Institute of Science and Technology</p>
+                    <p>Digital Craftzman ( Artist / Developer / Designer ) </p>
                 </Box>
             </Box>
         </Container>
