@@ -3,7 +3,7 @@ import Section from '../components/section'
 const Page = () => {
     return (
         <Container>
-            <Box borderRadius="lg" bg="useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')" p={3} mb={6} align="center">
+            <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
                 Hello I&apos;m a software engineer based in Korea!
             </Box>
             <Box display={{md:'flex'}}>
