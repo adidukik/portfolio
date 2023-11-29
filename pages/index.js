@@ -1,5 +1,8 @@
-import { Container, Box, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import { Container, Box, Button, NextLink, Heading, Image, useColorModeValue } from '@chakra-ui/react'
 import Section from '../components/section'
+import Paragraph from '../components/paragraph'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+
 const Page = () => {
     return (
         <Container>
@@ -19,7 +22,7 @@ const Page = () => {
                     mt={{base: 4, md: 0}} 
                     ml={{md: 6}}
                     align="center"
-                >
+                    >
                     <Image 
                         borderColor="whiteAlpha.800"
                         borderWidth={2} 
@@ -36,7 +39,24 @@ const Page = () => {
                 <Heading as="h3" variant="section-title">
                     Work
                 </Heading>
-                <p>Paragraph</p>
+                <Paragraph>
+                    Damir is a Junior KAIST student based in Daejeon 
+                    with a passion for building digital services/stuff he wants. 
+                    He is a young leader who knows how to ignite the spark in others. 
+                    Damir is a team player as he takes on board a diverse set of people 
+                    to help them realize their potential.
+                </Paragraph>
+                <Box align="center" my={4}>
+                    <Button
+                        as={NextLink}
+                        href="/works"
+                        scroll={false}
+                        rightIcon={<ChevronRightIcon />}
+                        colorScheme="teal"
+                        >
+                        My portfolio
+                    </Button>
+                </Box>
             </Section>
         </Container>
     )
