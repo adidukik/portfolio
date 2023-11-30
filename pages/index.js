@@ -86,11 +86,11 @@ const Page = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2023</BioYear>
-                        Junior Frontend Engineer at<br />
+                        Junior Software Engineer at<br />
                             <Link href="https://iacng.kz/?page_id=3410&lang=en" target="_blank">
                                 Information and Analytical Center for Oil and Gas
                             </Link>
-                                        </BioSection>
+                </BioSection>
             </Section>
             <Section delay={0.3}>
                 <Heading as="h3" variant="section-title">

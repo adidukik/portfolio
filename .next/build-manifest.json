@@ -27,10 +27,35 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/skills": [
+    "/works": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/skills.js"
+      "static/chunks/pages/works.js"
+    ],
+    "/works/blockbay": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/blockbay.js"
+    ],
+    "/works/cattymap": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/cattymap.js"
+    ],
+    "/works/doodle": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/doodle.js"
+    ],
+    "/works/iacng": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/iacng.js"
+    ],
+    "/works/narxoz": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/narxoz.js"
     ]
   },
   "ampFirstPages": []

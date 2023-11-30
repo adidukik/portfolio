@@ -2,7 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/skills": "pages/skills.js",
-  "/resume": "pages/resume.js",
-  "/": "pages/index.js"
+  "/works/narxoz": "pages/works/narxoz.js",
+  "/works": "pages/works.js",
+  "/works/blockbay": "pages/works/blockbay.js",
+  "/": "pages/index.js",
+  "/works/cattymap": "pages/works/cattymap.js",
+  "/works/doodle": "pages/works/doodle.js",
+  "/works/iacng": "pages/works/iacng.js"
 }
