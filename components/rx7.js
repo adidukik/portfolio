@@ -12,7 +12,6 @@ const RX7 = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlRx7GLB = (process.env.NODE_ENV === 'production' ? 'https://craftzdog.global.ssl.fastly.net/homepage' : '') + '/rx7.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
@@ -71,7 +70,7 @@ const RX7 = () => {
       controls.autoRotate = true
       controls.target = target
 
-      loadGLTFModel(scene, urlRx7GLB, {
+      loadGLTFModel(scene, '/rx7.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
